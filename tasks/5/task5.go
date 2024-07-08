@@ -8,8 +8,7 @@ import (
 	"strconv"
 )
 
-// fib returns a function that returns
-// successive Fibonacci numbers.
+// Напишите программу, которая выводит первые N чисел Фибоначчи.
 func fib(n big.Int) {
 	f1 := big.NewInt(0)
 	f2 := big.NewInt(1)
